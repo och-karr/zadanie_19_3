@@ -16,14 +16,14 @@ function addComment(text) {
     }
 }
 
-function removeComment() {
+function removeComment(id) {
     return {
         type: REMOVE_COMMENT,
         id
     }
 }
 
-function editComment(text) {
+function editComment(text, id) {
     return {
         type: EDIT_COMMENT,
         text,
@@ -31,7 +31,7 @@ function editComment(text) {
     }
 }
 
-function thumbUpComment(thumbUp) {
+function thumbUpComment(id) {
     return {
         type: THUMB_UP_COMMENT,
         thumbUp,
@@ -39,7 +39,7 @@ function thumbUpComment(thumbUp) {
     }
 }
 
-function addComment(thumbDown) {
+function addComment(id) {
     return {
         type: THUMB_DOWN_COMMENT,
         thumbDown,
