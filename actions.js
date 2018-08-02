@@ -38,7 +38,7 @@ function thumbUpComment(id) {
     }
 }
 
-function addComment(id) {
+function thumbDownComment(id) {
     return {
         type: THUMB_DOWN_COMMENT,
         id
