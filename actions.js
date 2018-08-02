@@ -34,7 +34,6 @@ function editComment(text, id) {
 function thumbUpComment(id) {
     return {
         type: THUMB_UP_COMMENT,
-        thumbUp,
         id
     }
 }
@@ -42,7 +41,6 @@ function thumbUpComment(id) {
 function addComment(id) {
     return {
         type: THUMB_DOWN_COMMENT,
-        thumbDown,
         id
     }
 }
